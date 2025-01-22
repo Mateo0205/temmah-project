@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Button from "./Button";
+import Form from "./Form";
 
 const Hero = () => {
   return (
@@ -10,15 +11,16 @@ const Hero = () => {
         <Image
           src="/plane.png"
           alt="camp"
-          width={90}
+          width={100}
           height={100}
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
         />
         <h1 className="bold-52 lg:bold-88">Fly throught the world</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-          We want to be on each of your journeys seeking the satisfaction of
-          seeing the incorruptible beauty of nature. We can help you on an
-          adventure around the world in just one app
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsa
+          provident, explicabo cupiditate facere minus maiores delectus nemo
+          unde impedit sapiente saepe natus ad ut officia voluptate porro eaque
+          assumenda.
         </p>
 
         <div className="my-11 flex flex-wrap gap-5">
@@ -45,27 +47,28 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-col w-full gap-3 sm:flex-row">
-          <Button type="button" title="Download App" variant="btn_green" />
+          <Button type="button" title="En savoir plus " variant="btn_blue" />
           <Button
             type="button"
-            title="How we work?"
+            title="
+            alors où allez-vous?"
             icon="/play.svg"
             variant="btn_white_text"
           />
         </div>
       </div>
 
-      <div className="relative flex flex-1 items-start">
-        <div className="relative z-20 flex w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
+      <div className="relative flex flex-col flexBetween flex-1 items-start bg-transp rounded-lg p-4 ">
+        {/* <div className="relative z-20 flex w-[268px] flex-col gap-8 rounded-3xl bg-red-500 px-7 py-8">
           <div className="flex flex-col">
             <div className="flexBetween">
-              <p className="regular-16 text-gray-20">Location</p>
+              <p className="regular-16 text-gray-20">Lieux</p>
               <Image src="/close.svg" alt="close" width={24} height={24} />
             </div>
-            <p className="bold-20 text-white">Aguas Calientes</p>
+            <p className="bold-20 text-white">abidjan, Côte d'Ivoire</p>
           </div>
 
-          <div className="flexBetween">
+          <div className="flexBetween bg-black rounded p-2">
             <div className="flex flex-col">
               <p className="regular-16 block text-gray-20">Distance</p>
               <p className="bold-20 text-white">173.28 mi</p>
@@ -75,7 +78,48 @@ const Hero = () => {
               <p className="bold-20 text-white">2.040 km</p>
             </div>
           </div>
+        </div> */}
+
+        <div
+          className="flex flex-row  gap-4 justify-start text-white text-2xl p-2 mb-2 bg-red-500 rounded"
+          text-sm
+        >
+          <ul className="flex gap-5 cursor-pointer" flex-row>
+            <li>
+              <a href="#">vols</a>
+            </li>
+            <li>
+              <a href="#">vols</a>
+            </li>
+            <li>
+              <a href="#">vols</a>
+            </li>
+            <li>
+              <a href="#">vols</a>
+            </li>
+          </ul>
         </div>
+        <Form
+          type="text"
+          title="
+            alors où allez-vous?"
+          icon="/play.svg"
+          variant="btn_white_text"
+        />
+        <Form
+          type="password"
+          title="
+            alors où allez-vous?"
+          icon="/play.svg"
+          variant="btn_white_text"
+        />
+        <Form
+          type="text"
+          title="
+            alors où allez-vous?"
+          icon="/play.svg"
+          variant="btn_white_text"
+        />
       </div>
     </section>
   );

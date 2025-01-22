@@ -16,19 +16,19 @@ body {
 
 @layer utilities {
   .btn_white {
-    @apply border-white bg-white px-8 py-3 text-green-50;
+    @apply border-white bg-white px-8 py-3 text-orange-600;
   }
   .btn_white_text {
     @apply border-white bg-white px-8 py-3 text-gray-90;
   }
-  .btn_green {
-    @apply border-blue-50 bg-blue-50 px-8 py-5 text-white;
+  .btn_blue {
+    @apply border-blue-50 bg-blue-700 px-8 py-5 text-white;
   }
   .btn_dark_green {
     @apply bg-green-90 px-8 py-4 text-white transition-all hover:bg-black;
   }
   .btn_dark_green_outline {
-    @apply border-gray-20 bg-green-90 px-8 py-5 text-white;
+    @apply border-gray-20 bg-red-500 px-8 py-5 text-white;
   }
 
   .max-container {
@@ -126,7 +126,7 @@ body {
 
   /* Hero */
   .hero-map {
-    @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
+    @apply absolute right-0 top-0 h-screen w-screen bg-airplane bg-right-top bg-no-repeat bg-cover  md:-right-28 xl:-top-60;
   }
 
   /* Camp */
