@@ -1,4 +1,4 @@
-<div align="center">
+<!-- <div align="center">
   <br />
     <a href="https://youtu.be/cuzw4vL1z5E?feature=shared" target="_blank">
       <img src="https://github.com/adrianhajdin/travel_ui_ux/assets/151519281/c72ebf75-847d-4a98-8f8a-24be02dac752" alt="Project Banner">
@@ -30,7 +30,7 @@
 
 ## 🚨 Tutorial
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
+This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
 
 If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
 
@@ -63,7 +63,7 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 👉 **Footer**: Comprehensive footer section containing site and social media links for easy navigation and connectivity.
 
-and many more, including code architecture and reusability 
+and many more, including code architecture and reusability
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -217,22 +217,22 @@ body {
 }
 
 @layer utilities {
-  .btn_white { 
+  .btn_white {
     @apply  border-white bg-white px-8 py-3 text-green-50
   }
-  .btn_white_text  { 
+  .btn_white_text  {
     @apply  border-white bg-white px-8 py-3 text-gray-90
   }
-  .btn_green  { 
+  .btn_green  {
     @apply  border-green-50 bg-green-50 px-8 py-5 text-white
   }
-  .btn_dark_green { 
+  .btn_dark_green {
     @apply  bg-green-90 px-8 py-4 text-white transition-all hover:bg-black
   }
-  .btn_dark_green_outline  { 
+  .btn_dark_green_outline  {
     @apply border-gray-20 bg-green-90 px-8 py-5 text-white
   }
-  
+
   .max-container {
     @apply mx-auto max-w-[1440px];
   }
@@ -441,10 +441,10 @@ Enjoyed creating this project? Dive deeper into our PRO courses for a richer lea
 
 **Accelerate your professional journey with the Expert Training program**
 
-And if you're hungry for more than just a course and want to understand how we learn and tackle tech challenges, hop into our personalized masterclass. We cover best practices, different web skills, and offer mentorship to boost your confidence. Let's learn and grow together!
+And if you're hungry for more than just a course and want to understand how we learn and tackle tech challenges, hop into our personalized masterclass. We cover best practices, different web skills, and offer mentorship to boost your confidence. Let's learn and grow together!a
 
 <a href="https://www.jsmastery.pro/masterclass" target="_blank">
 <img src="https://github.com/sujatagunale/EasyRead/assets/151519281/fed352ad-f27b-400d-9b8f-c7fe628acb84" alt="Project Banner">
 </a>
 
-#
+# -->

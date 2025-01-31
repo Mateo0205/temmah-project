@@ -12,6 +12,8 @@
 
 body {
   font-family: Inter;
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 219 254 / var(--tw-bg-opacity)) /* #bfdbfe */;
 }
 
 @layer utilities {
@@ -126,7 +128,7 @@ body {
 
   /* Hero */
   .hero-map {
-    @apply absolute right-0 top-0 h-screen w-screen bg-airplane bg-right-top bg-no-repeat bg-cover  md:-right-28 xl:-top-60;
+    @apply absolute right-0 top-0 h-screen w-screen bg-airplane bg-right-top bg-no-repeat bg-contain md:-right-28 xl:-top-60;
   }
 
   /* Camp */

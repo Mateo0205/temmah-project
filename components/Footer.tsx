@@ -5,13 +5,15 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flexCenter mb-24">
+    <footer className="flexCenter mb-24 pt-6 border-t-4 border-black">
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mb-10">
-            <Image src="logo.png" alt="logo" width={80} height={40} />
+            <Image src="/logo.png" alt="logo" width={80} height={40} />
           </Link>
-
+          <div className="sticky top-0 flexCenter gap-4 w-9 h-4 rounded-full">
+            <span className=""></span>
+          </div>
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
             {FOOTER_LINKS.map((columns, index) => (
               <FooterColumn title={columns.title} key={index}>
@@ -45,10 +47,11 @@ const Footer = () => {
             <div className="flex flex-col gap-5">
               <FooterColumn title={SOCIALS.title}>
                 <ul className="regular-14 flex gap-4 text-gray-30">
-                  {SOCIALS.links.map((link, index) => (
+                  {SOCIALS.links.map((link, index, url) => (
                     <li key={index}>
-                      <Link href="/">
+                      <Link href="https://www.facebook.com/profile.php?id=61565647539020">
                         <Image src={link} alt="logo" width={24} height={24} />
+                        <span>{url}</span>
                       </Link>
                     </li>
                   ))}
@@ -59,8 +62,9 @@ const Footer = () => {
         </div>
 
         <div className="border bg-gray-20" />
-        <p className="regular-14 w-full text-center text-gray-30">
-          2023 Hilink | All rights reserved
+        <p className="regular-4 w-full text-center text-gray-30">
+          2025 Temmah Assistance Voyages | All rights reserved
+          <br /> Temmah Assistance Voyages, voyager simplement...
         </p>
       </div>
     </footer>
